@@ -1,0 +1,47 @@
+:root {
+  --bg-light-green: #f0f5ef;
+  background-color: var(--bg-light-green);
+}
+.logo img {
+  display: inline;
+  margin-right: 7px;
+}
+.logo a {
+  color: black;
+
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  background-color: #bef7ed;
+  box-sizing: content-box;
+  border-radius: 5px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  flex-direction: row;
+}
+nav ul li {
+  margin-right: 10px;
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+#search {
+  display: inline;
+  width: 30px;
+  height: 30px;
+  border: #000;
+}
